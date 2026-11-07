@@ -86,7 +86,6 @@ class Game:
 		self.battle = None
 		self.evolution = None
 		self.game_over = False
-
 		self.joypad = JoyPad(self.fonts['big'])
 
 	@global_profiler.profile_func()
