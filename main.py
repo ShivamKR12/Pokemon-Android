@@ -1,6 +1,9 @@
 from os.path import join, dirname, abspath
 from random import randint
-from java import jclass
+try:
+    from java import jclass
+except ImportError:
+    jclass = None
 
 from settings import *
 from game_data import *
