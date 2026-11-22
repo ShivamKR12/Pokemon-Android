@@ -15,6 +15,9 @@ source.dir = .
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,jpeg,ogg,wav,mp3,ttf,otf,json,atlas,tmx,tsx,xml
 
+# (str) Icon of the application
+icon.filename = %(source.dir)s/graphics/icons/player.png
+
 # (str) Application versioning
 version = 1.0
 
